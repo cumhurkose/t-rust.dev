@@ -36,10 +36,10 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-de10448f.js";
+            window.path_to_searchindex_js = "searchindex-09036588.js";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-6e8cc62d.js"></script>
+        <script src="toc-fbb5c47d.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -190,14 +190,11 @@
 <li>Assembly ve Makine dili dersleri sırasında, windows yüklü bir bilgisayarda <code>DEBUG.EXE</code>’yi kullanarak yazdığı assembly komutları ile öğrencilerine hava atmaktan çok büyük zevk almıştır.😄</li>
 <li>Eğitmenliği bırakıp özel sektöre geçerek bir çok firma ve projede yazılım uzmanı olarak görev almıştır…</li>
 <li>2021 itibari ile tüm programcıların en çok sevdiği Rust dili ile ilgilenmeye başlamıştır.</li>
-<li>25 yıllık tecrübesine istinaden bu site aracılığı ile aşağıdaki eğitimleri hazırlamaktadır.
-<ol>
-<li><a href="#1-programlamaya-giriş-sistem-gözüyle">Programlamaya Giriş (Sistem Gözüyle) [<code>Hazırlanıyor</code>]</a></li>
-<li><a href="#2-rusta-giriş">Rust’a Giriş [<code>Hazırlanıyor</code>]</a></li>
-<li><a href="#3-ileri-rust-mastery">İleri Rust (Mastery) [<code>Hazırlanıyor</code>]</a></li>
-</ol>
-</li>
 </ul>
+<!-- - 25 yıllık tecrübesine istinaden bu site aracılığı ile aşağıdaki eğitimleri hazırlamaktadır.
+	1. [Programlamaya Giriş (Sistem Gözüyle) [`Hazırlanıyor`]](1.intro-to-programming.md)
+	2. [Rust'a Giriş [`Hazırlanıyor`]](2.intro-to-rust.md)
+	3. [İleri Rust (Mastery) [`Hazırlanıyor`]](3.advanced-rust.md) -->
 <p><code>t-rust.dev</code> ismi</p>
 <ul>
 <li><strong>T-R</strong> / Türkiye ISO Code</li>
@@ -208,155 +205,6 @@ sizce de zekice bir kelime oyunu değil mi? 😉</li>
 </ul>
 <hr>
 <p><a href="mailto:cumhurkose@gmail.com">Mail ile ulaşmak için bağlantıyı kullanabilirsiniz.</a></p>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="1-programlamaya-giriş-sistem-gözüyle"><a class="header" href="#1-programlamaya-giriş-sistem-gözüyle">1. Programlamaya Giriş (Sistem Gözüyle)</a></h1>
-<h2 id="sistem-gözüyle-eğitimin-farkı"><a class="header" href="#sistem-gözüyle-eğitimin-farkı">Sistem gözüyle eğitimin farkı</a></h2>
-<ul>
-<li>Piyasadaki yüzeysel eğitimlerden ayrışan bu eğitimin, <strong>en güçlü noktasıdır.</strong></li>
-<li>Programlamayı yeni öğrenmeye başlayanlara sadece kod yazmayı değil, <strong>bilgisayarın nasıl çalıştığını</strong> öğreterek, ileride Rust’ın bellek güvenliği (memory safety) konularının hazırlığı yapılmaktadır.</li>
-<li>25 yılı aşkın uzmanlığım neticesinde <strong>aşağıdan yukarıya (bottom-up) yaklaşımıyla</strong> hazırlanmış bir müfredattır.</li>
-</ul>
-<h2 id="eğitimin-amacı"><a class="header" href="#eğitimin-amacı">Eğitimin amacı</a></h2>
-<ul>
-<li>Programlamanın mantığını, temel kavramlarını ve bir çok programlama dili için başlangıç seviyesindeki ortak konuları <strong>sistem gözüyle, bilgisayarın nasıl çalıştığını öğreterek, derinlemesine anlatmaktır.</strong></li>
-<li>Eğitimi bitiren katılımcıları, herhangi bir programlama dilinde çalışma yapmaya hazır hale getirmek, bunun için gerekli altyapıyı oluşturmaktır.</li>
-</ul>
-<h2 id="ön-koşul"><a class="header" href="#ön-koşul">Ön koşul</a></h2>
-<ul>
-<li>Windows, Linux, MacOS işletim sistemlerinden birini kullanmış olmak.</li>
-</ul>
-<h2 id="eğitimin-içeriği"><a class="header" href="#eğitimin-içeriği">Eğitimin içeriği</a></h2>
-<p>Eğitim içeriğinin detayını görmek için lütfen üzerine tıklayınız.</p>
-<details><summary>Temel kavramlar</summary>
-	Kodun fiziksel dünyasında, yazdığımız x = 8 satırı elektrik sinyallerinden transistörlere nasıl dönüşüyor...
-	
-<ul>					
-		
-<li>Temel bilgisayar mimarisi (Donanım)</li>
-	
-			- Temel bileşenler <br>
-			- Single-board computer <br>
-			- Mikroişlemci (microprocessor) / Mikrodenetleyici (microcontroller) 
-		
-<li>Sayı sistemleri</li>
-
-		
-<li>İkilik (binary) ve onaltılık (Hex) sistem</li>
-
-		
-<li>İşletim sistemleri</li>
-
-		
-<li>Makine dili ve assembly</li>
-
-		
-<li>Programlama dillerinin tarihsel gelişimi</li>
-
-		
-<li>Derleyici (compiler) ve yorumlayıcı (interpreter) kavramı</li>
-
-		
-<li>IDE kullanımı ve populer IDE'ler</li>
-
-		
-<li>Debugger kavramı ve kullanılan Debuggerlar</li>
-
-	</ul>
-		
-</details>
-<br>
-<details><summary>Programlama</summary>			
-	Kullanılacak programlama dili ne olursa olsun, öğrenilmesi gereken ortak kavramlar...
-	
-<ul>
-		
-<li>Veri tipleri (Data Types)</li>
-
-		
-<li>Veri tiplerinin anatomisi</li>
-
-		
-<li>Değişkenler (Variables)</li>
-
-		
-<li>Sabitler (Constants)</li>
-
-		
-<li>Bellek yönetimi (Memory management)</li>
-
-		
-<li>Yığın (Stack) ve Öbek (Heap) kavramları</li>
-
-		
-<li>Adresleme ve İşaretçi (Pointer) mantığı</li>
-
-		
-<li>Bir değişkenin adresini bilmenin güçlü ve tehlikeli yanları</li>
-
-		
-<li>Mantıksal işlemler (Boolean logic) </li>
-
-		
-<li>Operatörler (Operators)</li>
-
-		
-<li>Eğer deyimleri (If statements)</li>
-							
-		
-<li>Diziler (Arrays)</li>
-
-		
-<li>Döngüler (Loops)</li>
-
-		
-<li>Fonksiyonlar (Functions)</li>
-
-		
-<li>Özyineleme (Recursion)</li>
-
-		
-<li>Kapsam (Scope)</li>
-
-		
-<li>Dizeler (Strings)</li>
-
-		
-<li>Yorumlar (Comments)</li>
-
-		
-<li>Giriş ve Çıkış (Input/Output)</li>
-
-		
-<li>Bitler ve Baytlar (Bits/Bytes)</li>
-
-		
-<li>İkili sayılar (Binary numbers)</li>
-
-		
-<li>Onaltılık sayılar (Hexadecimal numbers)</li>
-
-	</ul>
-		
-</details>
-<h2 id="programlamaya-giriş-eğitimine-katılım-için-en-küçük-yaş-kaç-olabilir"><a class="header" href="#programlamaya-giriş-eğitimine-katılım-için-en-küçük-yaş-kaç-olabilir">“Programlamaya Giriş” eğitimine katılım için, en küçük yaş kaç olabilir?</a></h2>
-<ul>
-<li>Türkiye’de ikili (binary) sayı sistemi ve sayı tabanı dönüşümleri konusu, 2025 itibarıyla lisede ağırlıklı olarak 9. sınıf düzeyinde işlenir.</li>
-<li>Minimum yaş seçimi rastgele yapılmamış, aşağıdaki araştırmalarım sonucuna göre belirlenmiştir.
-<ul>
-<li>9 . sınıf Bilişim Teknolojileri ve Yazılım dersi, “Bilgisayar Bilimi Temelleri” ünitesinde <strong>ikili, onluk, sekizlik, onaltılık sayı sistemleri</strong> ve <strong>sayı tabanı dönüşümleri</strong> en net ve kapsamlı şekilde yer aldığı gözlemlenmiştir.</li>
-<li>Matematik dersinde, doğrudan ve ayrıntılı bir “ikili sayı sistemi” konusu <strong>zorunlu olarak bulunmamaktadır.</strong></li>
-<li>Bazı okullarda veya öğretmen inisiyatifinde <strong>kısa örnek</strong> olarak değinilebilmektedir.</li>
-<li>10–11. sınıflar Algoritma, programlama veya bilgisayar bilimi seçmeli derslerinde <strong>dolaylı olarak</strong> kullanılabildiği gözlemlenmiştir.</li>
-</ul>
-</li>
-<li>Tüm bu bilgiler ışığında, <strong>2 byte :-) yani 16 yaş</strong> ve üzerindeki kişiler eğitime katılabilirler.</li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="2-rusta-giriş"><a class="header" href="#2-rusta-giriş">2. Rust’a Giriş</a></h1>
-<p>Hazırlanıyor…</p>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="3-ileri-rust-mastery"><a class="header" href="#3-ileri-rust-mastery">3. İleri Rust (Mastery)</a></h1>
-<p>Hazırlanıyor…</p>
 
                     </main>
 
@@ -381,6 +229,22 @@ sizce de zekice bir kelime oyunu değil mi? 😉</li>
         <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
         <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
         <script>
